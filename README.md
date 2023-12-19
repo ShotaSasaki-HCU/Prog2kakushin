@@ -17,4 +17,4 @@
 　ユーザが選択肢に一致する数字を入力した場合、一度表示がクリアされて新たな表示に遷移した後、各機能が実行されます。ユーザが選択肢以外の数字を入力した場合、その旨を伝えるエラー文が表示され、再度入力を求められます。各機能の実行が終わった後にエンターキーを押下すると、再びこの表示へ戻ってくることができます。選択肢の内、「5. 終了」が選択されると本アプリは終了します。
 
 ## 分析に使用したCSVファイルについて
-　本アプリのデータ分析に使用した`netflix daily top 10.csv`は、<https://www.kaggle.com/datasets/prasertk/netflix-daily-top-10-in-us>より、入手しました。Licenseは、CC0: Public Domainに指定されており、本アプリで使用することに問題は生じません。
+　本アプリのデータ分析に使用した`netflix daily top 10.csv`は、下記のURLより入手しました。Licenseは、CC0: Public Domainに指定されており、本アプリで使用することに問題は生じません。<https://www.kaggle.com/datasets/prasertk/netflix-daily-top-10-in-us>
