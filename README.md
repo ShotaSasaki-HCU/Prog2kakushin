@@ -15,8 +15,6 @@
 ### 4. ランキング枠に対するNetflix独占配信の割合
 　この機能では、記録されている全てのランキングの内、Netflix独占配信の割合・非独占配信の割合を円グラフで表示します。
 
-　この内、１と２については、ユーザが任意に分析結果の表示件数を指定することができるインタラクティブな機能となっています。３と４については、CSVのデータが処理されて得られた情報をグラフ等で表示する機能となっています。
-
 ## 使い方
 　Google Colaboratory上で本アプリを実行すると、各種ライブラリのインポート処理が表示されてクリアされた後、以下の様な表示に切り替わります。
 ![Alt text](https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/work1_main_menu.png?raw=true)
