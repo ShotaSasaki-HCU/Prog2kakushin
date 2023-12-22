@@ -64,9 +64,9 @@
     - 送信素子位置表示マーカーの有無・大きさ
   - シミュレーション結果の要素数と画素数一致形式
     <p>
-      <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/beam_forming.png?raw=true" width="300">
-      <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/beam_forming_nomarker.png?raw=true" width="300">
-      <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/grid2image.png?raw=true" width="190">
+      <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/beam_forming.png?raw=true" width="250">
+      <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/beam_forming_nomarker.png?raw=true" width="250">
+      <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/grid2image.png?raw=true" width="160">
     </p>
     （左）グラフ情報付き形式＆送信素子位置表示マーカーあり，（中）グラフ情報付き形式＆送信素子位置表示マーカーなし，（右）シミュレーション結果の要素数と画素数一致形式
 - 保存形式
