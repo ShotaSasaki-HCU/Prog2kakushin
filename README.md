@@ -22,7 +22,7 @@
 ## 使い方（入力について）
 　Google Colaboratory上で本アプリを実行すると、各種ライブラリのインポート処理が表示されてクリアされた後、以下の様な表示に切り替わります。
 
-![Alt text](https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/work1_main_menu.png?raw=true)
+<img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/work1_main_menu.png?raw=true">
 
 　ユーザが選択肢に一致する数字を入力した場合、一度表示がクリアされて新たな表示に遷移した後、各機能が実行されます。ユーザが選択肢以外の数字を入力した場合、その旨を伝えるエラー文が表示され、再度入力を求められます。各機能の実行が終わった後にエンターキーを押下すると、再びこの表示へ戻ってくることができます。選択肢の内、「5. 終了」が選択されると本アプリは終了します。
 
