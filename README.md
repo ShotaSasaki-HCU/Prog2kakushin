@@ -55,6 +55,7 @@
   - ビームフォーミングモード
     <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/beam_forming.png?raw=true" width="300">
   - ビームフォーカシングモード（集束モード）
+    <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/beam_focusing.png?raw=true" width="300">
 - 表示形式
   - グラフ情報付き形式
     - 送信素子位置表示マーカーの有無・大きさ
