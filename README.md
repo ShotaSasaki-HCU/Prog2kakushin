@@ -53,6 +53,7 @@
 　本アプリによるシミュレーションの結果は、ユーザによる位相制御方式・表示形式・保存形式それぞれについての設定、合計３つが統合・反映された状態で保存されます。
 - 位相制御方式　
   - ビームフォーミングモード
+    <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/beam_forming.png?raw=true" width="300">
   - ビームフォーカシングモード（集束モード）
 - 表示形式
   - グラフ情報付き形式
