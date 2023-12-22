@@ -62,7 +62,7 @@
 - 表示形式
   - グラフ情報付き形式
     - 送信素子位置表示マーカーの有無・大きさ
-  - シミュレーション結果の要素数・PNGの画素数一致形式
+  - シミュレーション結果の要素数と画素数一致形式
     <p>
       <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/beam_forming.png?raw=true" width="300">
       <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/beam_forming_nomarker.png?raw=true" width="300">
@@ -79,6 +79,7 @@
         <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/beam_forming_periodic_loop.gif?raw=true" width="300">
         <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/beam_forming_steering.gif?raw=true" width="300">
       </p>
+      （左）PNG画像形式，（中）GIFアニメーション形式＆周期ループ，（右）GIFアニメーション形式＆ステアリング
 
 ## 使い方（入力について）
 　本アプリに含まれる関数は、`linear_phased_array()`のみで、この引数に任意のパラメータを指定することで全ての機能を制御できます。
