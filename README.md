@@ -66,7 +66,7 @@
     <p>
       <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/beam_forming.png?raw=true" width="250">
       <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/beam_forming_nomarker.png?raw=true" width="250">
-      <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/grid2image.png?raw=true" width="160">
+      <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/grid2image.png?raw=true" width="150">
     </p>
     （左）グラフ情報付き形式＆送信素子位置表示マーカーあり，（中）グラフ情報付き形式＆送信素子位置表示マーカーなし，（右）シミュレーション結果の要素数と画素数一致形式
 - 保存形式
@@ -75,9 +75,9 @@
     - 周期ループ
     - ステアリング
       <p>
-        <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/beam_forming_nomarker.png?raw=true" width=300">
-        <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/beam_forming_periodic_loop.gif?raw=true" width="300">
-        <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/beam_forming_steering.gif?raw=true" width="300">
+        <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/beam_forming_nomarker.png?raw=true" width=260">
+        <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/beam_forming_periodic_loop.gif?raw=true" width="260">
+        <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/beam_forming_steering.gif?raw=true" width="260">
       </p>
       （左）PNG画像形式，（中）GIFアニメーション形式＆周期ループ，（右）GIFアニメーション形式＆ステアリング
 
