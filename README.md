@@ -112,6 +112,7 @@ $$ 変位y = A\sin 2\pi f\left (t - \frac{x}{v} + 制御による位相差\right
 
 #### 10. tr_num：送信素子数（個）
 #### 11. tr_directivity：送信素子指向性(rad)
+　現実での送信素子(波源)は、強い波を送信できる方向が限定されている、つまり指向性を持ちます。この変数では、その範囲を指定します。正確には、指向性はこのように不連続に考えて良いものではありませんが、本アプリでは計算を簡素にするために不連続に指定します。以下に指向性の値がどのように適用されるか分かり易いように、例を示します。
 <p>
   <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/tr_directivity_90.png?raw=true" width="240">
   <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/tr_directivity_360.png?raw=true" width="240">
