@@ -59,7 +59,7 @@
       <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/beam_forming.png?raw=true" width="300">
       <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/beam_focusing.png?raw=true" width="300">
     </p>
-    （左）ビームフォーミングモード，（右）ビームフォーカシングモード
+    （左）ビームフォーミングモード，（右）ビームフォーカシングモード（集束モード）
 - 表示形式
   - グラフ情報付き形式
     - 送信素子位置表示マーカーの有無・大きさ
@@ -100,6 +100,7 @@ $$ 変位y = A\sin 2\pi f\left (t - \frac{x}{v} + 制御による位相差\right
 
 ### 計算範囲と計算精度を設定する。
 　計算範囲は、XY平面上で各軸に対して下限と上限を指定します。計算精度は、計算幅`calc_width`により決定します。各軸の計算範囲が計算幅で割り切れない場合は、計算結果が計算範囲を満たす様にユーザの指定より少し広い範囲まで計算を行います。
+
 #### 5. range_x_R：x軸上限(mm)
 #### 6. range_x_L：x軸下限(mm)
 #### 7. range_y_T：y軸上限(mm)
@@ -128,9 +129,28 @@ $$ 変位y = A\sin 2\pi f\left (t - \frac{x}{v} + 制御による位相差\right
 
 ### ビームフォーミングモードの設定をする。
 　後述する１６番目の変数である`use_focusing_mode`が`False`の時、位相制御方式はビームフォーミングモードに設定されます。
+
 #### 15. beam_direction：合成波の指向方向(rad)
 　ビームフォーミングモードでは、振幅を最大にしたい方向を指定する必要があります。ここでの方向とは、x軸の正の方向となす角とし、x軸の正の方向からy軸の正の方向へ向かう回転を正とします。
 <p>
   <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/beam_forming.png?raw=true" width="240">
   <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/beam_forming_45.png?raw=true" width="240">
 </p>
+
+（左）`beam_direction = np.deg2rad(90)`の場合，（右）`beam_direction = np.deg2rad(90)`の場合
+
+### ビームフォーカシングモード（集束モード）の設定をする。
+#### 16. use_focusing_mode：ビームフォーカシングモード（集束モード）の有効／無効
+　この変数が`True`の時、位相制御方式はビームフォーカシングモード（集束モード）に設定されます。この変数が`False`の時、位相制御方式はビームフォーミングモードに設定されます。
+
+#### 17. focusing_point：集束点の座標(mm)
+　ビームフォーカシングモードでは、波を集中させたい座標を指定する必要があります。座標は、例えば`focusing_point = (0,50)`のようにタプルで指定します。
+
+### 表示形式の設定をする。
+#### 18. use_grid2image：シミュレーション結果の要素数と画素数一致形式の有効／無効
+　この変数が`True`の時、表示形式はシミュレーション結果の要素数と画素数一致形式に設定されます。グラフタイトル・軸目盛り・カラーバーなど、ヒートマップ以外の一切の要素は表示されず、計算要素数がそのまま画素数になります。この機能を使うと、ヒートマップの情報が保存時に欠損したり、不適切に引き延ばされたりする事を防ぐことができ、指定条件通りのシミュレーション結果を観察することができます。この変数が`False`の時、表示形式はグラフ情報付き形式に設定されます。
+
+### GIFアニメーション生成の設定をする。
+#### 19. use_gif
+#### 20. name
+#### 21. dura
