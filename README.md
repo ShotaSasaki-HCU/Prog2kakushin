@@ -1,14 +1,3 @@
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-<script type="text/x-mathjax-config">
- MathJax.Hub.Config({
- tex2jax: {
- inlineMath: [['$', '$'] ],
- displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
- }
- });
-</script>
-
 # 【プログラム１について】Pandasによる2020年4月1日〜2022年3月11日のNetflix視聴ランキング分析アプリ
 ## アプリの概要
 　本アプリは、当該期間の各日付におけるNetflix視聴ランキングトップ１０についてのデータが記載されたCSVファイルを読み込み、それらに基づいて分析を行うアプリです。データの処理には、主にPandasライブラリを用いています。
@@ -96,7 +85,11 @@
 　本アプリには、`linear_phased_array()`という関数のみが含まれており、この関数の２１個の引数をユーザが指定することで全ての機能を制御できます。以下に各引数の設定方法を説明します。
 
 ### シミュレートする波の性質を設定する。
-　本アプリでは、時刻$$ t $$における原点からの距離$$ x $$の地点の波の式を、$$ 変位y = A\cdot \sin (2\pi f) $$
+　本アプリでは、時刻$` t `$における原点からの距離$` x `$の地点の波の式を、
+
+$$ 変位y = A\sin 2\pi f\left (t - \frac{x}{v} + 制御による位相差\right ) $$
+
+と定義しています。
 1. A：送信波の振幅(mm)
 2. f：送信波の周波数(Hz)
 3. v：送信波の速さ(mm/s)
