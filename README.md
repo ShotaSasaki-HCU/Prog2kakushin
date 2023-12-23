@@ -112,6 +112,11 @@ $$ 変位y = A\sin 2\pi f\left (t - \frac{x}{v} + 制御による位相差\right
 
 #### 10. tr_num：送信素子数（個）
 #### 11. tr_directivity：送信素子指向性(rad)
+<p>
+  <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/tr_directivity_90.png?raw=true" width="240">
+  <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/tr_directivity_360.png?raw=true" width="240">
+</p>
+
 #### 12. tr_clearance：送信素子間隔(mm)
 #### 13. tr_marker：送信素子マーカー描写の有無
 #### 14. tr_marker_s：送信素子マーカーの大きさ
