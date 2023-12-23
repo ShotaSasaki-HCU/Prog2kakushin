@@ -122,8 +122,10 @@ $$ 変位y = A\sin 2\pi f\left (t - \frac{x}{v} + 制御による位相差\right
 （左）`tr_directivity = np.deg2rad(90)`の場合，（右）`tr_directivity = np.deg2rad(360)`の場合
 
 #### 12. tr_clearance：送信素子間隔(mm)
+　ビームフォーミングモードの場合、送信素子間隔が波長$`\lambda = \frac{f}{v}`$の半分以下でないと、サイドローブが強く形成されます。
+
 #### 13. tr_marker：送信素子マーカー描写の有無
-　表示形式がグラフ情報付き形式の時、送信素子の位置を示す三角形のマーカーを表示するかどうかを指定します。`True`で表示、`False`で非表示となります。
+　表示形式がグラフ情報付き形式の時、送信素子の位置を示す三角形のマーカーを表示するかどうかを指定します。`True`で表示、`False`で非表示となります。このマーカーは、全ての送信素子の位置が計算範囲内に入っていないと正しく表示されません。
 
 #### 14. tr_marker_s：送信素子マーカーの大きさ
 
@@ -131,7 +133,7 @@ $$ 変位y = A\sin 2\pi f\left (t - \frac{x}{v} + 制御による位相差\right
 　後述する１６番目の変数である`use_focusing_mode`が`False`の時、位相制御方式はビームフォーミングモードに設定されます。
 
 #### 15. beam_direction：合成波の指向方向(rad)
-　ビームフォーミングモードでは、振幅を最大にしたい方向を指定する必要があります。ここでの方向とは、x軸の正の方向となす角とし、x軸の正の方向からy軸の正の方向へ向かう回転を正とします。
+　ビームフォーミングモードでは、振幅を最大にしたい方向を指定する必要があります。ここでの方向とは、x軸の正の方向となす角とし、x軸の正の方向からy軸の正の方向へ向かう回転を正とします。実用的に先鋭なビームを形成可能な範囲は、およそ$`45\leq beam_direction\leq 135`$である。
 <p>
   <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/beam_forming.png?raw=true" width="240">
   <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/beam_forming_45.png?raw=true" width="240">
