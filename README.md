@@ -117,8 +117,11 @@ $$ 変位y = A\sin 2\pi f\left (t - \frac{x}{v} + 制御による位相差\right
   <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/tr_directivity_90.png?raw=true" width="240">
   <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/tr_directivity_360.png?raw=true" width="240">
 </p>
+
 （左）`tr_directivity = np.deg2rad(90)`の場合，（右）`tr_directivity = np.deg2rad(360)`の場合
 
 #### 12. tr_clearance：送信素子間隔(mm)
 #### 13. tr_marker：送信素子マーカー描写の有無
+　表示形式がグラフ情報付き形式の時、送信素子の位置を示す三角形のマーカーを表示するかどうかを指定します。`True`で表示、`False`で非表示となります。
+
 #### 14. tr_marker_s：送信素子マーカーの大きさ
