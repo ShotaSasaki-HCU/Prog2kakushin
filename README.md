@@ -139,7 +139,7 @@ $$ 変位y = A\sin 2\pi f\left (t - \frac{x}{v} + 制御による位相差\right
   <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/beam_forming_45.png?raw=true" width="240">
 </p>
 
-（左）`beam_direction = np.deg2rad(90)`の場合，（右）`beam_direction = np.deg2rad(90)`の場合
+（左）`beam_direction = np.deg2rad(90)`の場合，（右）`beam_direction = np.deg2rad(45)`の場合
 
 ### ビームフォーカシングモード（集束モード）の設定をする。
 #### 16. use_focusing_mode：ビームフォーカシングモード（集束モード）の有効／無効
@@ -163,3 +163,8 @@ $$ 変位y = A\sin 2\pi f\left (t - \frac{x}{v} + 制御による位相差\right
 #### 20. name：結果を保存する際に内部的に使用されるファイル名の変数
 #### 21. dura：GIFアニメーションの画像１枚あたりの表示時間(ms)
 　この変数は、$`20\leq dura`$の範囲で指定してください。
+
+---
+# 【プログラム３について】あいうえお
+## アプリの概要
+　本アプリは、
