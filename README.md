@@ -100,7 +100,6 @@ $$ 変位y = A\sin 2\pi f\left (t - \frac{x}{v} + 制御による位相差\right
 
 ### 計算範囲と計算精度を設定する。
 　計算範囲は、XY平面上で各軸に対して下限と上限を指定します。計算精度は、計算幅`calc_width`により決定します。各軸の計算範囲が計算幅で割り切れない場合は、計算結果が計算範囲を満たす様にユーザの指定より少し広い範囲まで計算を行います。
-
 #### 5. range_x_R：x軸上限(mm)
 #### 6. range_x_L：x軸下限(mm)
 #### 7. range_y_T：y軸上限(mm)
@@ -126,3 +125,12 @@ $$ 変位y = A\sin 2\pi f\left (t - \frac{x}{v} + 制御による位相差\right
 　表示形式がグラフ情報付き形式の時、送信素子の位置を示す三角形のマーカーを表示するかどうかを指定します。`True`で表示、`False`で非表示となります。
 
 #### 14. tr_marker_s：送信素子マーカーの大きさ
+
+### ビームフォーミングモードの設定をする。
+　後述する１６番目の変数である`use_focusing_mode`が`False`の時、位相制御方式はビームフォーミングモードに設定されます。
+#### 15. beam_direction：合成波の指向方向(rad)
+　ビームフォーミングモードでは、振幅を最大にしたい方向を指定する必要があります。ここでの方向とは、x軸の正の方向となす角とし、x軸の正の方向からy軸の正の方向へ向かう回転を正とします。
+<p>
+  <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/beam_forming.png?raw=true" width="240">
+  <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/beam_forming_45.png?raw=true" width="240">
+</p>
