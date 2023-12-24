@@ -133,7 +133,7 @@ $$ 変位y = A\sin 2\pi f\left (t - \frac{x}{v} + 制御による位相差\right
 　後述する１６番目の変数である`use_focusing_mode`が`False`の時、位相制御方式はビームフォーミングモードに設定されます。
 
 #### 15. beam_direction：合成波の指向方向(rad)
-　ビームフォーミングモードでは、振幅を最大にしたい方向を指定する必要があります。ここでの方向とは、x軸の正の方向となす角とし、x軸の正の方向からy軸の正の方向へ向かう回転を正とします。実用的に先鋭なビームを形成可能な範囲は、およそ$`45（度）\leq beam\_direction\leq 135（度）`$です。
+　ビームフォーミングモードでは、振幅を最大にしたい方向を指定する必要があります。ここでの方向とは、x軸の正の方向となす角とし、x軸の正の方向からy軸の正の方向へ向かう回転を正とします。
 <p>
   <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/beam_forming.png?raw=true" width="240">
   <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/beam_forming_45.png?raw=true" width="240">
