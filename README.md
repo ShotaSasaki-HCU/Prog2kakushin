@@ -177,8 +177,10 @@ $$ 変位y = A\sin 2\pi f\left (t - \frac{x}{v} + 制御による位相差\right
 
 <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/description.png?raw=true" width="450">
 
-「それでは始めます。画像が表示されたらスタートです。」と表示されると、数秒後に間違い探しの画像が提示されます。
+「それでは始めます。画像が表示されたらスタートです。」と表示されると、数秒後に以下のような間違い探しの画像が提示されます。
 
 <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/tan.png?raw=true" width="350">
+
+間違い探しの画像の下には、仲間はずれの漢字の位置を問う質問が表示され、ユーザは任意の数字を入力して回答します。ユーザが回答を完了すると正誤が表示され、回答は正解するまで繰り返し要求されます。ユーザが正解を入力すると、正解までのユーザのタイムと開発者のタイムが並べて表示されます。それらの様子を以下に示します。
 
 <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/below.png?raw=true" width="300">
