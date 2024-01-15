@@ -174,3 +174,6 @@ $$ 変位y = A\sin 2\pi f\left (t - \frac{x}{v} + 制御による位相差\right
 
 ## 操作方法（入力と出力）
 　プログラムを実行すると、
+<img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/description.png?raw=true" width="240">
+<img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/tan.png?raw=true" width="240">
+<img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/below.png?raw=true" width="240">
