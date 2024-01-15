@@ -173,10 +173,10 @@ $$ 変位y = A\sin 2\pi f\left (t - \frac{x}{v} + 制御による位相差\right
 　漢字間違い探しゲームをプレイすることによって、正確かつ迅速な判断力を養うことを目的としています。
 
 ## 操作方法（入力と出力）
-　プログラムを実行すると、
+　プログラムを実行すると、以下の様な説明文が順次ゆっくりと表示されていきます。「それでは始めます。画像が表示されたらスタートです。」が表示されると、数秒後に間違い探しの画像が表示されます。
 
-<img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/description.png?raw=true" width="240">
+<img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/description.png?raw=true" width="450">
 
-<img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/tan.png?raw=true" width="240">
+<img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/tan.png?raw=true" width="350">
 
-<img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/below.png?raw=true" width="240">
+<img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/below.png?raw=true" width="300">
