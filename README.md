@@ -177,7 +177,7 @@ $$ 変位y = A\sin 2\pi f\left (t - \frac{x}{v} + 制御による位相差\right
 
 <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/description.png?raw=true" width="450">
 
-　「それでは始めます。画像が表示されたらスタートです。」と表示されると、数秒後に以下のような間違い探しの画像が提示されます。
+　「それでは始めます。画像が表示されたらスタートです。」と表示されると、数秒後に以下のような間違い探しの画像が表示されます。間違い探しの画像は１０種類存在し、それらの中からランダムに選ばれたものが出題されます。
 
 <img src="https://github.com/ShotaSasaki-HCU/Prog2kakushin/blob/main/Attached%20File/tan.png?raw=true" width="350">
 
